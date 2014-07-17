@@ -2,5 +2,5 @@
 echo Ensure 'classes' directory exists
 mkdir classes
 echo Compile 'purejavacomm'
-javac -d classes -sourcepath ./src -cp lib/jna.jar src/purejavacomm/testsuite/TestSuite.java
+javac -d classes -sourcepath ./src -cp lib/jna-4.0.0.jar src/purejavacomm/testsuite/TestSuite.java -Xlint:deprecation
 
